@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a,c,rem1;
+    printf("Enter a:",a);
+    scanf("%d",&a);
+    c=0;
+    while(a>0)
+    {
+        rem1=a%10;
+        c++;
+        a=a/10;
+    }
+    printf("%d",c);
+    return 0;
+}
